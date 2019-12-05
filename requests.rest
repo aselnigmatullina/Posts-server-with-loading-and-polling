@@ -1,0 +1,26 @@
+@host = http://localhost:3000
+
+# @host = https://asel-express-polling.herokuapp.com
+
+GET {{host}}/posts/1
+
+
+###
+
+GET {{host}}/posts/latePosts/6
+
+###
+
+DELETE {{host}}/posts/1
+
+###
+
+POST {{host}}/posts/like/1
+
+###
+
+POST {{host}}/posts/ Content-Type: application/json
+
+{
+"content": "New Post"
+}
