@@ -1,8 +1,8 @@
-@host = http://localhost:3000
+# @host = http://localhost:3000
 
-# @host = https://asel-express-polling.herokuapp.com
+@host = https://asel-express-polling.herokuapp.com
 
-GET {{host}}/posts/1
+GET {{host}}/posts
 
 
 ###
